@@ -105,18 +105,18 @@ namespace MISA.WEB08.AMIS.API
                 endpoints.MapControllers();
             });
             var a = Environment.GetFolderPath(Environment.SpecialFolder.Desktop); 
-            app.UseStaticFiles();
-            app.UseStaticFiles(new StaticFileOptions()
-            {
-                FileProvider = new PhysicalFileProvider("/Users/vuphuong/datn/HAN_DATN/HAN_DATN/Assets"),
-                RequestPath = new PathString("/Assets")
+            //app.UseStaticFiles();
+            //app.UseStaticFiles(new StaticFileOptions()
+            //{
+            //    FileProvider = new PhysicalFileProvider("/Users/vuphuong/datn/HAN_DATN/HAN_DATN/Assets"),
+            //    RequestPath = new PathString("/Assets")
 
-            }); 
-            app.UseDirectoryBrowser(new DirectoryBrowserOptions       
-            {
-                FileProvider = new PhysicalFileProvider("/Users/vuphuong/datn/HAN_DATN/HAN_DATN/Assets"),
-                RequestPath = new PathString("/Assets")
-            });
+            //}); 
+            //app.UseDirectoryBrowser(new DirectoryBrowserOptions       
+            //{
+            //    FileProvider = new PhysicalFileProvider("/Users/vuphuong/datn/HAN_DATN/HAN_DATN/Assets"),
+            //    RequestPath = new PathString("/Assets")
+            //});
         }
     }
 }

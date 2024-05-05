@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vuphuong/datn/HAN_DATN/HAN_DATN/amis.product.be/MISA.WEB08.AMIS.DL/MISA.WEB08.AMIS.DL.csproj": {}
+    "D:\\vnp_datn\\VNP_DATN\\amis.product.be\\MISA.WEB08.AMIS.DL\\MISA.WEB08.AMIS.DL.csproj": {}
   },
   "projects": {
-    "/Users/vuphuong/datn/HAN_DATN/HAN_DATN/amis.product.be/MISA.WEB08.AMIS.Common/MISA.WEB08.AMIS.Common.csproj": {
+    "D:\\vnp_datn\\VNP_DATN\\amis.product.be\\MISA.WEB08.AMIS.Common\\MISA.WEB08.AMIS.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vuphuong/datn/HAN_DATN/HAN_DATN/amis.product.be/MISA.WEB08.AMIS.Common/MISA.WEB08.AMIS.Common.csproj",
+        "projectUniqueName": "D:\\vnp_datn\\VNP_DATN\\amis.product.be\\MISA.WEB08.AMIS.Common\\MISA.WEB08.AMIS.Common.csproj",
         "projectName": "MISA.WEB08.AMIS.Common",
-        "projectPath": "/Users/vuphuong/datn/HAN_DATN/HAN_DATN/amis.product.be/MISA.WEB08.AMIS.Common/MISA.WEB08.AMIS.Common.csproj",
-        "packagesPath": "/Users/vuphuong/.nuget/packages/",
-        "outputPath": "/Users/vuphuong/datn/HAN_DATN/HAN_DATN/amis.product.be/MISA.WEB08.AMIS.Common/obj/",
+        "projectPath": "D:\\vnp_datn\\VNP_DATN\\amis.product.be\\MISA.WEB08.AMIS.Common\\MISA.WEB08.AMIS.Common.csproj",
+        "packagesPath": "C:\\Users\\Nghiep Dep Trai\\.nuget\\packages\\",
+        "outputPath": "D:\\vnp_datn\\VNP_DATN\\amis.product.be\\MISA.WEB08.AMIS.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/vuphuong/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Nghiep Dep Trai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,35 +55,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/vuphuong/datn/HAN_DATN/HAN_DATN/amis.product.be/MISA.WEB08.AMIS.DL/MISA.WEB08.AMIS.DL.csproj": {
+    "D:\\vnp_datn\\VNP_DATN\\amis.product.be\\MISA.WEB08.AMIS.DL\\MISA.WEB08.AMIS.DL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vuphuong/datn/HAN_DATN/HAN_DATN/amis.product.be/MISA.WEB08.AMIS.DL/MISA.WEB08.AMIS.DL.csproj",
+        "projectUniqueName": "D:\\vnp_datn\\VNP_DATN\\amis.product.be\\MISA.WEB08.AMIS.DL\\MISA.WEB08.AMIS.DL.csproj",
         "projectName": "MISA.WEB08.AMIS.DL",
-        "projectPath": "/Users/vuphuong/datn/HAN_DATN/HAN_DATN/amis.product.be/MISA.WEB08.AMIS.DL/MISA.WEB08.AMIS.DL.csproj",
-        "packagesPath": "/Users/vuphuong/.nuget/packages/",
-        "outputPath": "/Users/vuphuong/datn/HAN_DATN/HAN_DATN/amis.product.be/MISA.WEB08.AMIS.DL/obj/",
+        "projectPath": "D:\\vnp_datn\\VNP_DATN\\amis.product.be\\MISA.WEB08.AMIS.DL\\MISA.WEB08.AMIS.DL.csproj",
+        "packagesPath": "C:\\Users\\Nghiep Dep Trai\\.nuget\\packages\\",
+        "outputPath": "D:\\vnp_datn\\VNP_DATN\\amis.product.be\\MISA.WEB08.AMIS.DL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/vuphuong/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Nghiep Dep Trai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/vuphuong/datn/HAN_DATN/HAN_DATN/amis.product.be/MISA.WEB08.AMIS.Common/MISA.WEB08.AMIS.Common.csproj": {
-                "projectPath": "/Users/vuphuong/datn/HAN_DATN/HAN_DATN/amis.product.be/MISA.WEB08.AMIS.Common/MISA.WEB08.AMIS.Common.csproj"
+              "D:\\vnp_datn\\VNP_DATN\\amis.product.be\\MISA.WEB08.AMIS.Common\\MISA.WEB08.AMIS.Common.csproj": {
+                "projectPath": "D:\\vnp_datn\\VNP_DATN\\amis.product.be\\MISA.WEB08.AMIS.Common\\MISA.WEB08.AMIS.Common.csproj"
               }
             }
           }
@@ -130,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

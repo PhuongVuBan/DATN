@@ -166,3 +166,17 @@ D:/DATN/amis.product.be/MISA.WEB08.AMIS.Common/obj/Debug/net5.0/ref/MISA.WEB08.A
 /Users/vuphuong/datn/HAN_DATN/HAN_DATN/amis.product.be/MISA.WEB08.AMIS.Common/obj/Debug/net5.0/refint/MISA.WEB08.AMIS.Common.dll
 /Users/vuphuong/datn/HAN_DATN/HAN_DATN/amis.product.be/MISA.WEB08.AMIS.Common/obj/Debug/net5.0/MISA.WEB08.AMIS.Common.pdb
 /Users/vuphuong/datn/HAN_DATN/HAN_DATN/amis.product.be/MISA.WEB08.AMIS.Common/obj/Debug/net5.0/ref/MISA.WEB08.AMIS.Common.dll
+D:\vnp_datn\VNP_DATN\amis.product.be\MISA.WEB08.AMIS.Common\bin\Debug\net5.0\MISA.WEB08.AMIS.Common.deps.json
+D:\vnp_datn\VNP_DATN\amis.product.be\MISA.WEB08.AMIS.Common\bin\Debug\net5.0\MISA.WEB08.AMIS.Common.dll
+D:\vnp_datn\VNP_DATN\amis.product.be\MISA.WEB08.AMIS.Common\bin\Debug\net5.0\MISA.WEB08.AMIS.Common.pdb
+D:\vnp_datn\VNP_DATN\amis.product.be\MISA.WEB08.AMIS.Common\obj\Debug\net5.0\MISA.WEB08.AMIS.Common.csproj.AssemblyReference.cache
+D:\vnp_datn\VNP_DATN\amis.product.be\MISA.WEB08.AMIS.Common\obj\Debug\net5.0\MISA.WEB08.AMIS.Common.Resources.Resource.resources
+D:\vnp_datn\VNP_DATN\amis.product.be\MISA.WEB08.AMIS.Common\obj\Debug\net5.0\MISA.WEB08.AMIS.Common.csproj.GenerateResource.cache
+D:\vnp_datn\VNP_DATN\amis.product.be\MISA.WEB08.AMIS.Common\obj\Debug\net5.0\MISA.WEB08.AMIS.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\vnp_datn\VNP_DATN\amis.product.be\MISA.WEB08.AMIS.Common\obj\Debug\net5.0\MISA.WEB08.AMIS.Common.AssemblyInfoInputs.cache
+D:\vnp_datn\VNP_DATN\amis.product.be\MISA.WEB08.AMIS.Common\obj\Debug\net5.0\MISA.WEB08.AMIS.Common.AssemblyInfo.cs
+D:\vnp_datn\VNP_DATN\amis.product.be\MISA.WEB08.AMIS.Common\obj\Debug\net5.0\MISA.WEB08.AMIS.Common.csproj.CoreCompileInputs.cache
+D:\vnp_datn\VNP_DATN\amis.product.be\MISA.WEB08.AMIS.Common\obj\Debug\net5.0\MISA.WEB08.AMIS.Common.dll
+D:\vnp_datn\VNP_DATN\amis.product.be\MISA.WEB08.AMIS.Common\obj\Debug\net5.0\refint\MISA.WEB08.AMIS.Common.dll
+D:\vnp_datn\VNP_DATN\amis.product.be\MISA.WEB08.AMIS.Common\obj\Debug\net5.0\MISA.WEB08.AMIS.Common.pdb
+D:\vnp_datn\VNP_DATN\amis.product.be\MISA.WEB08.AMIS.Common\obj\Debug\net5.0\ref\MISA.WEB08.AMIS.Common.dll

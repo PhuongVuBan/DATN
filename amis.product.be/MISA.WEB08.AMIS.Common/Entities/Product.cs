@@ -132,8 +132,14 @@ namespace MISA.WEB08.AMIS.Common.Entities
         /// <summary>
         /// Mô tả
         /// </summary>
-        [ColumnName(Name = "Kich ", Width = 45)]
+        [ColumnName(Name = "Kích cỡ", Width = 45)]
         public string Size { get; set; }
+        
+        /// <summary>
+        /// Mô tả
+        /// </summary>
+        [ColumnName(Name = "Số lượng", Width = 45)]
+        public int Quantity { get; set; }
 
         /// <summary>
         /// Mô tả
