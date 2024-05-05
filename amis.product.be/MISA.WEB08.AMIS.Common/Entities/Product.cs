@@ -1,6 +1,7 @@
 ﻿using MISA.WEB08.AMIS.Common.Attributes;
 using MISA.WEB08.AMIS.Common.Enums;
 using System;
+using System.Collections.Generic;
 
 namespace MISA.WEB08.AMIS.Common.Entities
 {
@@ -134,12 +135,12 @@ namespace MISA.WEB08.AMIS.Common.Entities
         /// </summary>
         [ColumnName(Name = "Kích cỡ", Width = 45)]
         public string Size { get; set; }
-        
+
         /// <summary>
         /// Mô tả
         /// </summary>
-        [ColumnName(Name = "Số lượng", Width = 45)]
-        public int Quantity { get; set; }
+        [ColumnName(Name = "Tổng số lượng", Width = 45)]
+        public int Quantity { get; set; } = 0;
 
         /// <summary>
         /// Mô tả
