@@ -40,7 +40,7 @@
 
 <script setup lang="ts">
     import { ref, onBeforeMount } from 'vue';
-    const totalAmount = ref(0);
+    const totalAmount = ref(1);
     const props = defineProps(['data', 'isVisible']);
     const emit = defineEmits(['deleteAll']);
     function addNewRow() {
