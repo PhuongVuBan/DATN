@@ -169,6 +169,7 @@ columns.forEach((item: Header, index)=> {
     return
   }
   else if(item.Field === 'size'){
+    console.log("Is SIze");
     columns[index].TypeFormat.IsSize = true;
     return
   }

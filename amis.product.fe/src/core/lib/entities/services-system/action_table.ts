@@ -275,7 +275,7 @@ export class TypeFormat {
   /** Cố định cột đầu tiên không */
   public FixFirstColumn?: boolean = false;
 
-  /** Cố định cột đầu tiên không */
+  /** Có là cột kích cỡ không*/
   public IsSize?: boolean = false;
 }
 

@@ -33,14 +33,14 @@
                     Xóa
                 </div>
             </div>
-            <div class="size-total-amount a">Tổng số lượng:: {{totalAmount}}</div>
+            <div class="size-total-amount a">Tổng số lượng: {{totalAmount}}</div>
         </div>
     </div> 
 </template>
 
 <script setup lang="ts">
     import { ref, onBeforeMount } from 'vue';
-    const totalAmount = ref(1);
+    const totalAmount = ref(0);
     const props = defineProps(['data', 'isVisible']);
     const emit = defineEmits(['deleteAll']);
     function addNewRow() {

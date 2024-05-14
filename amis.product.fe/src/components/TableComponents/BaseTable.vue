@@ -468,40 +468,28 @@ export default defineComponent({
     const oldSearch: any = ref(null);
 
     function formatData(typeFormat: TypeFormat, data: any) {
-      return typeFormat.FractionSize === true
-        ? Base.Comma(data)
-        : typeFormat.FormatDate === true
-        ? Base.formatDateDDMMYYYY(data)
-        : typeFormat.IsGender === true
-        ? formatGender(data)
-        : typeFormat.IsActive === true
-        ? formatIsActive(data)
-        : typeFormat.IsNature === true
-        ? formatNature(data)
-        : typeFormat.DepreciatedTax === true
-        ? formatDepreciatedTax(data)
-        : typeFormat.TypeCheckout === true
-        ? formatTypeCheckout(data)
-        : typeFormat.Status === false
-        ? formatStatus(data)
-        : typeFormat.CheckBox === true
-        ? ""
-        : typeFormat.IsImage === true
-        ? ""
-        : typeFormat.HTML === true
-        ? ""
-        : typeFormat.FormatServiceResponseI18n === true
-        ? BaseComponent.value.formatServiceResponse(
-            data,
-            BaseComponent.value.ModuleI18n
-          )
-        : typeFormat.IsSize === true
-        ? formatSizeList(data)
-        : data;
+      return typeFormat.FractionSize === true ? Base.Comma(data)
+        : typeFormat.FormatDate === true ? Base.formatDateDDMMYYYY(data)
+        : typeFormat.IsGender === true ? formatGender(data)
+        : typeFormat.IsActive === true ? formatIsActive(data)
+        : typeFormat.IsNature === true ? formatNature(data)
+        : typeFormat.DepreciatedTax === true ? formatDepreciatedTax(data)
+        : typeFormat.TypeCheckout === true ? formatTypeCheckout(data)
+        : typeFormat.Status === true ? formatStatus(data)
+        : typeFormat.CheckBox === true ? ""
+        : typeFormat.IsImage === true ? ""
+        : typeFormat.HTML === true ? ""
+        : typeFormat.FormatServiceResponseI18n === true ? BaseComponent.value.formatServiceResponse(data, BaseComponent.value.ModuleI18n)
+        : typeFormat.IsSize === true ? formatSizeList(data) : data;
     }
 
-    function formatSizeList(data: String) {
-      console.log(data);
+    function formatSizeList(data: any) {
+      let displayedData = "";
+      let sizeList = JSON.parse(data);
+      for(let i = 0; i < sizeList?.length; i++) {
+        displayedData += "size: " + sizeList[i]["size"] + " - " + sizeList[i]["quantity"] + (i < sizeList?.length - 1 ? ", " : "");
+      }
+      return displayedData;
     }
 
     function formatStatus(data: number) {
