@@ -91,6 +91,7 @@ namespace MISA.WEB08.AMIS.BL
             var v_Offset = int.Parse(formData["v_Offset"].ToString());
             var v_Limit = int.Parse(formData["v_Limit"].ToString());
             var v_Where = formData.Keys.Contains("v_Where") ? Convert.ToString(formData["v_Where"]).Trim() : null;
+            var v_OrderStatus = formData.Keys.Contains("v_OrderStatus") && !string.IsNullOrEmpty(formData["v_OrderStatus"].ToString()) ? Convert.ToString(formData["v_OrderStatus"]).Trim() : null;
             var v_Sort = formData.Keys.Contains("v_Sort") ? Convert.ToString(formData["v_Sort"]) : null;
             var v_Select = formData.Keys.Contains("v_Select") ? JsonConvert.DeserializeObject<List<string>>(Convert.ToString(formData["v_Select"])) : new List<string>();
 
@@ -103,7 +104,7 @@ namespace MISA.WEB08.AMIS.BL
                     v_Query += Validate<T>.FormatQuery(item.ColumnSearch, item.ValueSearch.Trim(), item.TypeSearch, item.ComparisonType);
                 }
             }
-            return _baseDL.GetFitterRecords(v_Offset, v_Limit, v_Where, v_Sort, v_Query, string.Join(", ", v_Select));
+            return _baseDL.GetFitterRecords(v_Offset, v_Limit, v_Where, v_Sort, v_Query, v_OrderStatus, string.Join(", ", v_Select));
         }
 
         /// <summary>
