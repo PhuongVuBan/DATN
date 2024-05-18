@@ -297,7 +297,7 @@ namespace MISA.WEB08.AMIS.DL
         /// <param name="v_Select">Trường muốn select</param>
         /// <returns>Danh sách record và tổng số bản ghi</returns>
         /// Create by: HAN (26/09/2022)
-        public override Paging GetFitterRecords(int offset, int limit, string? keyword, string? sort, string v_Query, string v_Select)
+        public override Paging GetFitterRecords(int offset, int limit, string? keyword, string? sort, string v_Query, string v_OrderStatus, string v_Select)
         {
             Paging result;
             // Khởi tạo các parameter để chèn vào trong Proc
@@ -308,6 +308,7 @@ namespace MISA.WEB08.AMIS.DL
             parameters.Add("v_Where", keyword);
             parameters.Add("v_Query", v_Query);
             parameters.Add("v_Select", v_Select != "" ? ',' + v_Select : "");
+            parameters.Add("v_OrderStatus", v_OrderStatus);
 
             // chuẩn bị câu lệnh MySQL
             string storeProcedureName = "Proc_order_GetFilterPaging";

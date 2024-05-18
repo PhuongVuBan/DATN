@@ -119,7 +119,7 @@ namespace MISA.WEB08.AMIS.DL
         /// <param name="v_Select">Trường muốn select</param>
         /// <returns>Danh sách record và tổng số bản ghi</returns>
         /// Create by: HAN (26/09/2022)
-        public virtual Paging GetFitterRecords(int offset, int limit, string? keyword, string? sort, string v_Query, string v_Select)
+        public virtual Paging GetFitterRecords(int offset, int limit, string? keyword, string? sort, string v_Query, string v_OrderStatus, string v_Select)
         {
             Paging result;
             // Khởi tạo các parameter để chèn vào trong Proc
