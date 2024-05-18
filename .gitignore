@@ -1,0 +1,6 @@
+/build/
+bin/
+obj/
+Debug/
+Release/
+amis.product.be/MISA.WEB08.AMIS.API/bin/Debug/net5.0/MISA.WEB08.AMIS.API.dll
